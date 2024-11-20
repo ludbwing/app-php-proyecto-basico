@@ -7,6 +7,7 @@
 </head>
 <body>
     <p>Ludwing Aldair <b>Mamani Yucra </b></p>
+    
     <?php
     echo "imprimiendo de php </br>";
     $dato_1 = 1;

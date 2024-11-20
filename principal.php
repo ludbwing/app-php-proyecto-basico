@@ -11,6 +11,18 @@
 
 <body>
     <div class="container">
+        <h3>PHP BÁSICO</h3>
+        <ul>
+            <ol>1. Operaciones con string</ol>
+            <ol>2. Operadores Aritmeticos</ol>
+            <ol>3. Tipos de datos</ol>
+            <ol>4. Operaciones con arrays</ol>
+            <ol>5. Condicionales</ol>
+            <ol>6. Ciclos</ol>
+            <ol>7. Salir</ol>
+        </ul>
+
+
         <h6><b>FORMULARIO</b></h6>
         <hr>
 
@@ -24,16 +36,18 @@
             <button type="submit" class="btn btn-primary">Enviar</button>
             <hr>
         </form>
+
+
+
+
+
+
+
+
+
+
         <?php
-
-
-
-
-
-
-
-
-
+        include "./OperadoresLogicos.php";
 
 
 
@@ -51,8 +65,22 @@
             echo $_GET["precio"] . "</br>";
         }
 
-        echo $_POST["numero"];
+        //echo $_POST["numero"];
+
+        $ol = new OperadoresLogicos();
+        $ol->operadores();
+        $ol->saludar();
+        //$sd = new OperadoresLogicos();
+        
+
+
+
+
+
+
         ?>
+
+
     </div>
 
 
